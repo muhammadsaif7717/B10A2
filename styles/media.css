@@ -1,0 +1,147 @@
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .body-div {
+        width: 90%;
+    }
+
+    .navbar-title {
+        font-size: 25px;
+    }
+
+    .nav-links {
+       display: none;
+    }
+    .lines{
+        display: block;
+        color: white;
+        font-size: 25px;
+      }
+
+      .bannar {
+        background-position: bottom;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .bannar-title{
+        font-size: 46px;
+      }
+
+      .banner-div-2 {
+        background-position: center;
+        width: 100%;
+        height: 500px;
+        padding: 20px 0;
+      }
+
+      .btn-primary {
+        width: 150px;
+        font-size: 15px;
+        height: 40px;
+      }
+      
+      .btn-secondary {
+        width: 150px;
+        font-size: 15px;
+        height: 40px;
+      }
+
+      .position-1 h1{
+        font-size: 25px;
+      }
+      .position-2 h1{
+        font-size: 25px;
+      }
+
+      .button-div{
+        width: 100%;
+        text-align: center;
+      }
+      
+      .img-tag {
+        flex-direction: column;
+      }
+      
+      .img-tag {
+        gap: 20px;
+      }
+
+      .bannar-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+      }
+      .bannar-2 h3 {
+        font-size: 30px;
+      }
+      .img-item{
+        margin: 40px;
+      }
+
+      .div3 , .div6{
+        display: none;
+      }
+
+      .image-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+      }
+
+      .grid-container1 .div1 {
+        width: 50%;
+      }
+      .grid-container1 .div2 {
+        width: 50%;
+      }
+      .grid-container2 .div4 {
+        width: 45%;
+      }
+      .grid-container2 .div5 {
+        width: 55%;
+      }
+
+      .BMI-container{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .team-grid{
+        grid-template-columns: repeat(1,1fr);
+      }
+
+      .Team-member div{
+        position: absolute;
+        color: white;
+        bottom: 7%;
+        left: 7%;
+      }
+
+
+      .footer {
+        flex-direction: column;
+      }
+
+
+      .text-secondary {
+        font-size: 35px;
+      }
+      .text-fifth {
+        font-size: 35px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+}

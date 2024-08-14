@@ -1,0 +1,485 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(17, 17, 17, 1);
+  width: 100%;
+}
+
+/* body container */
+.body-div {
+  width: 80%;
+  margin: auto;
+}
+
+/* navbar related styles */
+.navbar-title {
+  font-size: 36px;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgba(230, 83, 60, 1);
+}
+
+.nav-links {
+  display: flex;
+  padding: 7px;
+  gap: 40px;
+  justify-content: end;
+  border-radius: 39px;
+  color: #FFFFFF;
+  border: 1px solid gray;
+}
+.lines{
+  display: none;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding: 5px;
+}
+
+.text-primary {
+  color: rgba(230, 83, 60, 1);
+  width: 20px;
+  height: 10px;
+  border-radius: 46px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.full-navbar {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner styles */
+.bannar-title {
+  font-size: 78px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.bannar-discripsion {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background-color: rgba(230, 83, 60, 1);
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.btn-secondary {
+  width: 224px;
+  height: 54px;
+  border: 2px solid gray;
+  border-radius: 42px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(17, 17, 17, 1);
+}
+
+.bannar {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.banner-div-2 {
+  padding: 50px;
+  background-image: url(../images/Images\ 2.png);
+  background-position: calc(90%);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 30%;
+}
+
+.counts {
+  background-color: #383838;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.counts h1 {
+  margin: 0;
+}
+
+.counts p {
+  margin: 0;
+}
+
+.counts-2 {
+  background-color: #383838;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: tomato;
+}
+
+.position-1 {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+}
+
+.position-2 {
+  position: absolute;
+  top: 70%;
+  right: 55%;
+}
+
+/* main related styles */
+.text-secondary {
+  font-size: 48px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.text-thirdly {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.text-forthly {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.img-tag {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.img-circle {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  margin: 0 auto;
+  margin-left: 25px;
+}
+
+.img-container {
+  width: 231px;
+  height: 274px;
+  gap: 40px;
+}
+
+.text-fifth {
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.text-sixth {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.img-item {
+  width: 366px;
+  height: 312px;
+  border-radius: 22px;
+  gap: 165px;
+}
+
+.bannar-2 {
+  display: flex;
+  width: 100%;
+  margin: 80px auto;
+  justify-content: space-between;
+  background-color: #222222;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100%;
+}
+
+/* section trainings */
+.grid-container1 {
+  color: white;
+  display: flex;
+}
+
+.grid-container2 {
+  color: white;
+  display: flex;
+}
+
+.grid-container1 .div1 {
+  background-image: linear-gradient(rgba(104, 210, 215, 0.348), rgba(68, 166, 199, 0.342)), url(../images/exercise1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  height: 200px;
+  position: relative;
+}
+.p1{
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.p2{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.p3{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.p4{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.p5{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.p6{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.grid-container1 .div2 {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.348), rgba(255, 0, 0, 0.342)), url(../images/exercise2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 200px;
+  position: relative;
+}
+
+.grid-container1 .div3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.348), rgba(29, 28, 28, 0.342)), url(../images/exercise3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  position: relative;
+}
+
+.grid-container2 .div4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.348), rgba(29, 28, 28, 0.342)), url(../images/exercise4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 45%;
+  height: 200px;
+  position: relative;
+}
+
+.grid-container2 .div5 {
+  background-image: linear-gradient(rgba(21, 186, 32, 0.348), rgba(38, 145, 26, 0.342)), url(../images/exercise5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 200px;
+  position: relative;
+}
+
+.grid-container2 .div6 {
+  background-image: linear-gradient(rgba(115, 0, 246, 0.348), rgba(116, 0, 248, 0.342)), url(../images/exercise6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  position: relative;
+}
+
+.grid-container1 div img,
+.grid-container2 div img {
+  width: 100%;
+  height: calc(100%);
+}
+
+/* BMI calculator chart related style */
+.Bmi-chart {
+  text-align: center;
+}
+.BMI-container{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #222222;
+  padding: 30px;
+}
+.BMI-input input{
+ display: block;
+}
+.input{
+  width: 100%;
+  border-radius: 15px;
+  padding: 13px;
+  margin: 7px 0;
+  background-color: #767676;
+  border: none;
+}
+.input-last{
+  width: 93%;
+}
+.input::placeholder{
+  color: rgb(214, 213, 213);
+}
+.text-seventh {
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+/* BMI chart table style */
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 18px 70px 13px 18px;
+  font-size: 14px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  padding: 19px 70px 15px 19px;
+}
+
+/* team section */
+.team-img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  width: 80%;
+  margin: 50px auto 80px auto;
+  border-radius: 15px;
+  padding: 30px;
+}
+.team-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.team-grid img{
+ width: 100%;
+ height: calc(100%);
+ border-radius: 15px;
+}
+
+.Team-member{
+  position: relative;
+}
+.Team-member div{
+  position: absolute;
+  color: white;
+  bottom: 20%;
+  left: 7%;
+}
+
+/* footer */
+
+
+.footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
+.list-item li {
+  text-decoration: none;
+  color: #767676;
+  font-size: 15px;
+  list-style: none;
+  margin: 10px 0;
+}
+
+
+footer{
+  background-color: #222222;
+  padding: 30px 0;
+}
